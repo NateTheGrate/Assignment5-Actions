@@ -25,6 +25,18 @@ class TestCase(unittest.TestCase):
 
         self.assertEqual(expected, task.circle_area(radius))
 
+    def test5(self):
+        l = [0,1,2,3,4,5]
+
+        expected = (0,5)
+        self.assertEqual(expected, task.first_and_last(l))
+
+    def test6(self):
+        l = []
+
+        expected = ()
+        self.assertEqual(expected, task.first_and_last(l))
+
 
 if __name__ == '__main__':
     unittest.main()
