@@ -23,7 +23,7 @@ class TestCase(unittest.TestCase):
         radius = 0
         expected = 0
 
-        self.assertEqual(0, task.circle_area(0))
+        self.assertEqual(expected, task.circle_area(radius))
 
 
 if __name__ == '__main__':
