@@ -3,6 +3,8 @@ import task
 import math
 
 
+
+
 class TestCase(unittest.TestCase):
 
     def test1(self):
@@ -36,6 +38,20 @@ class TestCase(unittest.TestCase):
 
         expected = None
         self.assertEqual(expected, task.first_and_last(contents))
+
+    def test7(self):
+        date1 = "6/12/1999"
+        date2 = "3/1/2020"
+
+        expected = 7568
+        self.assertEqual(expected, task.days_between_days(date1, date2))
+
+    def test8(self):
+        date1 = "3/1/2020"
+        date2 = "3/1/2020"
+
+        expected = 0
+        self.assertEqual(expected, task.days_between_days(date1, date2))
 
 
 if __name__ == '__main__':
