@@ -3,8 +3,6 @@ import task
 import math
 
 
-
-
 class TestCase(unittest.TestCase):
 
     def test1(self):

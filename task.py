@@ -14,7 +14,6 @@ def first_and_last(contents):
         return None
     return contents[0], contents[-1]
 
-
 def days_between_days(strdate1, strdate2):
 
     date_format = "%m/%d/%Y"
