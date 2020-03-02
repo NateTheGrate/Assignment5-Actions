@@ -10,4 +10,7 @@ def circle_area(radius):
 
 
 def first_and_last(contents):
+
+    if contents = []:
+        return None
     return contents[0], contents[-1]

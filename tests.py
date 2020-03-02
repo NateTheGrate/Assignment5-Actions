@@ -34,7 +34,7 @@ class TestCase(unittest.TestCase):
     def test6(self):
         contents = []
 
-        expected = ()
+        expected = None
         self.assertEqual(expected, task.first_and_last(contents))
 
 
